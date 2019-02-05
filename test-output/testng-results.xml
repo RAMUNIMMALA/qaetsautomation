@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example test run" duration-ms="85842" started-at="2019-02-02T05:25:43Z" finished-at="2019-02-02T05:27:09Z">
+    <groups>
+    </groups>
+    <test name="smoke" duration-ms="85842" started-at="2019-02-02T05:25:43Z" finished-at="2019-02-02T05:27:09Z">
+      <class name="ManagerTest.LoginTest">
+        <test-method status="PASS" signature="BeforeSuiteMethod()[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="BeforeSuiteMethod" is-config="true" duration-ms="12" started-at="2019-02-02T10:55:43Z" finished-at="2019-02-02T10:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteMethod -->
+        <test-method status="PASS" signature="BeforeMethodSetup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="BeforeMethodSetup" is-config="true" duration-ms="37634" started-at="2019-02-02T10:55:43Z" finished-at="2019-02-02T10:56:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ManagerTest.LoginTest.ValidateManagerLoginWithValidEmailIdAndPassword() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ba302e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodSetup -->
+        <test-method status="PASS" signature="ValidateManagerLoginWithValidEmailIdAndPassword()[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="ValidateManagerLoginWithValidEmailIdAndPassword" duration-ms="1544" started-at="2019-02-02T10:56:21Z" finished-at="2019-02-02T10:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateManagerLoginWithValidEmailIdAndPassword -->
+        <test-method status="PASS" signature="AfterMethodSetup(org.testng.ITestResult)[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="AfterMethodSetup" is-config="true" duration-ms="2978" started-at="2019-02-02T10:56:22Z" finished-at="2019-02-02T10:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateManagerLoginWithValidEmailIdAndPassword status=SUCCESS method=LoginTest.ValidateManagerLoginWithValidEmailIdAndPassword()[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodSetup -->
+        <test-method status="PASS" signature="BeforeMethodSetup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="BeforeMethodSetup" is-config="true" duration-ms="36754" started-at="2019-02-02T10:56:25Z" finished-at="2019-02-02T10:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ManagerTest.LoginTest.ValidateManagerLoginWithValidEmpIdAndPassword() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ba302e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodSetup -->
+        <test-method status="PASS" signature="ValidateManagerLoginWithValidEmpIdAndPassword()[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="ValidateManagerLoginWithValidEmpIdAndPassword" duration-ms="5900" started-at="2019-02-02T10:57:02Z" finished-at="2019-02-02T10:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateManagerLoginWithValidEmpIdAndPassword -->
+        <test-method status="PASS" signature="AfterMethodSetup(org.testng.ITestResult)[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="AfterMethodSetup" is-config="true" duration-ms="1013" started-at="2019-02-02T10:57:08Z" finished-at="2019-02-02T10:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateManagerLoginWithValidEmpIdAndPassword status=SUCCESS method=LoginTest.ValidateManagerLoginWithValidEmpIdAndPassword()[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodSetup -->
+        <test-method status="PASS" signature="AfterSuiteMethod()[pri:0, instance:ManagerTest.LoginTest@5a4aa2f2]" name="AfterSuiteMethod" is-config="true" duration-ms="529" started-at="2019-02-02T10:57:09Z" finished-at="2019-02-02T10:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteMethod -->
+      </class> <!-- ManagerTest.LoginTest -->
+    </test> <!-- smoke -->
+  </suite> <!-- Example test run -->
+</testng-results>

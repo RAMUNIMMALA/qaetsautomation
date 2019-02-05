@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Example test run" >
+    <test name="smoke">
+        <classes>
+           <class name="ManagerTest.LoginTest">              
+               <!-- <methods>
+                    <include name="ValidateManagerLoginWithValidEmailIdAndPassword"/>
+                </methods> -->
+               </class>
+          <!--  <class name="MemberTest.DSRTest"/> -->
+        </classes>
+    </test>
+</suite>

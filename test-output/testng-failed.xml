@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Example test run]">
+  <test name="smoke(failed)">
+    <classes>
+      <class name="ManagerTest.LoginTest">
+        <methods>
+          <include name="ValidateManagerLoginWithValidEmailIdAndPassword"/>
+          <include name="AfterSuiteMethod"/>
+          <include name="BeforeMethodSetup"/>
+          <include name="BeforeSuiteMethod"/>
+          <include name="AfterMethodSetup"/>
+          <include name="ValidateManagerLoginWithValidEmpIdAndPassword"/>
+        </methods>
+      </class> <!-- ManagerTest.LoginTest -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [Example test run] -->
